@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Xiami Music
+</name>
+</assembly>
+<members>
+<member name="M:Xiami_Music.ListViewSort.#ctor(System.Windows.Forms.ListView,System.Boolean,System.Boolean)">
+ <summary>
+ stellt Sort für das Listview zur Verfügung
+ </summary>
+ <param name="Lvw">erforderlich Listview</param>
+ <param name="SortByColumnClickAutomatic">automatischer Sort by ColumnClick</param>
+ <param name="SetNumericColumsRightAlign">numerische Spalten rechtsbündig ausrichten</param>
+ <remarks></remarks>
+</member>
+<member name="P:Xiami_Music.ListViewSort.SortByColumnClick">
+ <summary>
+ ruft ab oder legt fest ob bei einem ColumnClick ein
+ automatischer Sort der jeweiligen Spalte ausgelöst wird:
+ bei Spaltenwechsel Ascending sonst Toggle Ascending-Descending:
+ default=True
+ </summary>
+</member>
+<member name="M:Xiami_Music.ListViewSort.NumericRightAlign(System.Int32)">
+ <summary>
+ eine oder alle numerischen Spalten rechtbündig setzen
+ </summary>
+ <param name="ColumnIndex">-1 = Alle </param>
+ <remarks></remarks>
+</member>
+<member name="M:Xiami_Music.ListViewSort.Sort(System.Int32,System.Windows.Forms.SortOrder)">
+ <summary>
+ Sort einer Spalte (manuell) anstossen
+ </summary>
+ <param name="ColumnIndex">Index der Spalte 0-n</param>
+ <param name="s_Order">Ascending oder Descending, default = Automatic</param>
+ <remarks></remarks>
+</member>
+<member name="P:Xiami_Music.ListViewSort.SortOrderIcon">
+ <summary>
+ ruft ab oder legt fest ob ein SortOrderIcon angezeigt werden kann,
+ Vorraussetzung: eine ImageList mit Icons Key Ascending und Key Descending
+ ist mit der SmallImageList verknüpft, default=True
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Xiami_Music.ListViewSort.SortOrderIconShow(System.Int32)">
+ <summary>
+ zeigt im Columnheader ein Icon mit Key Ascending oder Key Descending an
+ aus der Imagelist mit Verknüpfung zur SmallImageList: default=automatisch über ColumnClick
+ </summary>
+</member>
+<member name="M:Xiami_Music.ListViewSort.SortOrderIconRemove">
+ <summary>
+ entfernt ein SortOrderIcon
+ </summary>
+</member>
+<member name="M:Xiami_Music.ListViewSort.myLvw_ColumnClick(System.Object,System.Windows.Forms.ColumnClickEventArgs)">
+ <summary>
+ eine Spalte sortieren
+ </summary>
+</member>
+<member name="P:Xiami_Music.ListViewSort.IsNumericColumn(System.Int32,System.Boolean)">
+ <summary>
+ prüft eine Spalte auf rein Numeric, vorher sollte eine Prüfung auf Date erfolgen
+ </summary>
+</member>
+<member name="P:Xiami_Music.ListViewSort.IsDateColumn(System.Int32)">
+ <summary>
+ prüft eine Spalte auf rein Date
+ </summary>
+</member>
+<member name="P:Xiami_Music.ListViewSort.IsEmptyColumn(System.Int32)">
+ <summary>
+ prüft in einem Column ob alle Items leer sind
+ </summary>
+</member>
+<member name="T:Xiami_Music.ListViewSorterString">
+ <summary>
+ sortiert nach String, Aufruf nur aus ListViewSort
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Xiami_Music.ListViewSorterDate">
+ <summary>
+ Sortiert nach Date, Aufruf nur aus ListViewSort
+ </summary>
+</member>
+<member name="T:Xiami_Music.ListViewSorterDecimal">
+ <summary>
+ Sortiert nach rein Decimal, Aufruf nur aus ListViewSort
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Xiami_Music.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Xiami_Music.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Xiami_Music.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>

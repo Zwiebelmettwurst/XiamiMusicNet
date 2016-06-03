@@ -1,0 +1,19 @@
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\bin\Debug\Xiami Music.exe
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\bin\Debug\Xiami Music.pdb
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\bin\Debug\Xiami Music.xml
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\bin\Debug\Interop.MediaPlayer.dll
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\bin\Debug\Interop.WMPLib.dll
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Interop.WMPLib.dll
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Xiami Music.vbproj.ResolveComReference.cache
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Xiami_Music.Form1.resources
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Xiami_Music.Resources.resources
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Xiami Music.vbproj.GenerateResource.Cache
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Xiami Music.exe
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Xiami Music.xml
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Xiami Music.pdb
+C:\Users\Leonard\Documents\Visual Studio 2015\Projects\Xiami Music\Xiami Music\obj\Debug\Xiami Music.vbprojResolveAssemblyReference.cache
